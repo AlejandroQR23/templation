@@ -12,7 +12,7 @@ const useTabStore = create<TabState>()((set) => ({
   tabSelected: "mapping",
   tabStep: 0,
 
-  setTabSelected: (tab: string) => set({ tabSelected: tab }),
+  setTabSelected: (tab: string) => set({ tabSelected: tab, tabStep: 0 }),
   setTabStep: (step: number) => set({ tabStep: step }),
 }));
 

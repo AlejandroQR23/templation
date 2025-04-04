@@ -5,7 +5,6 @@ const useStyles = makeStyles({
   root: {
     display: "flex",
     flexDirection: "column",
-    padding: "20px",
     alignItems: "center",
   },
   dropdownContainer: {
